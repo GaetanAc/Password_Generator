@@ -35,7 +35,7 @@ def password(length,num = False,strength='weak'):
 
 
 
-Choix = (input('Choisissez un type de mot de passe parmit les 3 propositions : Faible (8 caractères)  , Moyen(16 caractères) , Fort(32 caractères) :'))
+Choix = (input('Choisissez un type de mot de passe parmi les 3 propositions : Faible (8 caractères)  , Moyen(16 caractères) , Fort(32 caractères) :'))
 if Choix == 'Faible' :
     password(8, num=True, strength= 'Faible')
 elif Choix == 'Moyen':
